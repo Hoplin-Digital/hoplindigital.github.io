@@ -26,11 +26,21 @@
       color: #abb2bf;
     }
 
-    #inner {
-      margin: auto;
-      margin-top: 30%;
-      width: 80%;
+    .container {
+      height: 100%;
+    }
+
+    .flex-box {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    .inner {
+      width: 90%;
       max-width: 800px;
+      margin: auto;
     }
 
     h1 {
@@ -57,18 +67,22 @@
   <body>
     <!-- <img id="air-symbol" class="corner-symbol" src="img/AirSymbol.png">
     <img id="earth-symbol" class="corner-symbol" src="img/EarthSymbol.png"> -->
-    <div id="inner">
-      <div id="typed-strings">
-        <h1>Hoplin Digital</h1>
+    <div class="container">
+      <div class="flex-box">
+        <div class="inner">
+          <div id="typed-strings">
+            <h1>Hoplin Digital</h1>
+          </div>
+          <h1 id="typed"></h1>
+          <h3>At Hoplin Digital, we are passionate about software and mobile app development. We are experts in building high-quality
+          web applications, mobile apps, and Web APIs. Our team uses the latest and most innovative technologies to create robust
+          and dependable software solutions for a diverse range of challenges.</h3>
+
+          <h2>Get started on your next software solution with Hoplin Digital</h2>
+
+          <button><a href="mailto: hello@hoplindigital.com"><i class="fa fa-envelope"></i> Get In Touch</a></button>
+        </div>
       </div>
-      <h1 id="typed"></h1>
-      <h3>At Hoplin Digital, we are passionate about software and mobile app development. We are experts in building high-quality
-      web applications, mobile apps, and Web APIs. Our team uses the latest and most innovative technologies to create robust
-      and dependable software solutions for a diverse range of challenges.</h3>
-
-      <h2>Get started on your next software solution with Hoplin Digital</h2>
-
-      <button><a href="mailto: hello@hoplindigital.com"><i class="fa fa-envelope"></i> Get In Touch</a></button>
     </div>
   </body>
 
